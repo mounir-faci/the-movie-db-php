@@ -10,7 +10,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 class Configuration implements ConfigurationInterface
 {
     public const KEY_PARAMETER_NAME = 'key';
-    private const NAME = 'TheMovieDd';
+    private const NAME = 'the_movie_db';
 
     public function getConfigTreeBuilder()
     {

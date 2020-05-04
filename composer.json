@@ -1,5 +1,5 @@
 {
-    "name": "mfd/the-movie-db",
+    "name": "mfd/themoviedb",
     "description": "php client for the-movie-db api",
     "license": "MIT",
     "authors": [
