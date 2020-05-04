@@ -1,0 +1,6 @@
+services:
+  MFD\TheMovieDbBundle\Service\TheMovieDbClient:
+    tags: ['the_movie_db.client']
+    autowire: true
+    arguments:
+      $key: '%env(THE_MOVIE_DB_KEY)%'
